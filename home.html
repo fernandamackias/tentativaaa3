@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="https://kit.fontawesome.com/8f05884cfd.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-padroes.css">
+    <title>HOME</title>
+</head>
+<body>
+  
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="home.html">
+                    <li><i class="fa-regular fa-user" style="color:#ff0abe; "></i></li></a>
+                <li id="imagem-localizacao"><i class="fa-solid fa-location-dot" style="color: #ff0abe;"></i>
+                    <input id="cep" type="text" placeholder="Digite seu CEP">
+                <p class="nome-localizacao"></p>
+ <button onclick="consultaEndereco()">oK</button>           
+            </li>
+                <li>
+                    <a href="login.html">
+                    <i class="fa-regular fa-image" style="color: #ff00c8;"></i></li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="mensagens-inicio">
+            <h1 id="nome-empresa">Trufas ON</h1>
+            <h2 class="mensagem">Olá,Seja bem-vindo</h2>
+       <H2 class="mensagem"> Vamos fazer o seu pedido!</H2>
+        </section>
+
+
+        <section id="input">
+            <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
+            <input type="text" id="input-text" placeholder="Digite seu pedido aqui">
+        </section>
+
+
+        <section id="categoria">
+            <ul id="categoria-ul">
+                <a href="" class="categoria-a"><li class="categoria">Categoria 1</li></a>
+                <a href="" class="categoria-a"><li class="categoria">Categoria 2</li></a>
+                <a href="" class="categoria-a"><li class="categoria">Categoria 3</li></a>
+                <a href="" class="categoria-a"><li class="categoria">Categoria 4</li></a>
+            </ul>
+        </section>
+        <section id="cards-produtos">
+            <div class="card-produto">
+                <img src="morango.jpg" alt="morango">
+                <h3 class="nome-do-produto">MORANGO</h3>
+            </div>
+
+            <div class="card-produto">
+                <img src="maracujaa.jpg" alt="maracuja">
+                <h3 class="nome-do-produto">MARACUJA</h3>
+            </div>
+
+            <div class="card-produto">
+                <img src="cocoo.jpg" alt="coco">
+                <h3 class="nome-do-produto">COCO</h3>
+            </div>
+
+            <div class="card-produto">
+                <img src="brigadeiro.jpg" alt="brigadeiro">
+                <h3 class="nome-do-produto">CHOCOLATE</h3>
+            </div>
+
+
+            </section>
+            <div id="ver-mais">
+                <a href="">VER MAIS>></a>
+                </div>
+
+<section id="avaliacao">
+    <p id="titulo-avaliacao">AVALIE NOSSO APP</p>
+                <i class="fa-solid fa-thumbs-up" id="legal"></i>
+                <i class="fa-solid fa-thumbs-down" id="negativo"></i>
+                <span id="frase-avaliacao">Sua avaliação pode gerar pontos</span>
+            </section>
+
+
+            <footer id="footer" class="footer">
+                <ul class="footer-card">
+
+
+                     <a href="home.html">
+                    <li class="footer-item">
+                    <i class="fa-solid fa-house" id="home-item"></i>
+                    <p class="footer-nome-item">HOME</p>
+                    </li></a>
+                   
+                    <a href="cadastrar_usuario.htm">
+                    <li class="footer-item">
+                    <i class="fa-regular fa-face-smile"id="cadastrar-usuarioo"></i>
+                    <p class="footer-nome-item">CADASTRO USUARIO</p>
+                    </li></a>
+
+                    <a href="cadastrar_produto.html">
+                    <li class="footer-item">
+                    <i class="fa-solid fa-barcode" id="cadastrar-produtoo"></i>
+                    <p class="footer-nome-item">CADASTRO DE PRODUTO</p>
+                    </li></a>
+
+                       <a href="carrinho.html">
+                        <li class="footer-item">
+                        <i class="fa-solid fa-cart-shopping" id="carinhoo"></i>
+                        <p class="footer-nome-item">CARRINHO</p>
+                        </li></a> 
+
+                        <a href="produto.html">
+                        <li class="footer-item">
+                        <i class="fa-regular fa-note-sticky" id="produtoo"></i>
+                        <p class="footer-nome-item">PRODUTO</p> 
+                        </li></a>
+                </ul> 
+    
+            </footer>
+    </main>
+   <script src="script-home.js"></script>
+</body>
+</html>

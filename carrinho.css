@@ -1,0 +1,137 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+
+}
+.cabecalho{
+    width: 100%;
+   background-image: url(trufass.jpg);
+
+}
+.menu{
+    display: flex;
+}
+.menu .ul-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ul-menu li{
+    list-style: none;
+    padding: 2rem;
+    color: blanchedalmond;
+
+}
+.fa-regular.fa-user{
+    color: #ff0abe;
+}
+
+.fa-regular {
+    font-size: 40px;
+    color: #ff0abe;
+}
+
+.nome-localizacao{
+    font-size:30px;
+    color: #ff0abe;
+    padding-left: 1px;
+    padding-right: 5rem;
+}
+
+#imagem-localizacao{
+    display: flex;
+    padding-right: 0;
+    padding-left: 5rem;
+    margin-right: 8rem;
+    align-items: center;
+}
+
+.footer{
+    background-color:rgb(81, 19, 19);
+    margin-top: 5rem;
+    
+}
+
+.footer-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer-card a{
+    text-decoration: none;
+    text-align: center;
+    color:antiquewhite;;
+}
+
+.footer-card li{
+    list-style: none;
+}
+
+.footer-item{
+    margin: .5rem;
+}
+#home-item{
+    font-size: 30px;
+    color: antiquewhite;;
+}
+#cadastrar-usuarioo{
+    font-size: 30px;
+    color: antiquewhite;;
+}
+#cadastrar-produtoo{
+    font-size: 30px;
+    color:antiquewhite;;
+}
+#carinhoo{
+    font-size: 30px;
+    color:antiquewhite;;
+}
+#produtoo{
+    font-size: 30px;
+    color: antiquewhite;;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+#carrinho{
+    
+  
+
+}
+
+
+.foto{
+    width: 300px;
+    margin-left: 30rem;
+   margin-right: 40px;
+}
+
+.moran{
+    display: flex;
+    justify-content:center;
+ word-spacing:2rem;
+    
+}
+#p{
+    font-size: 30px;
+    color: #ff0abe;
+}
+#pp{
+    font-size: 30px;
+    color: #ff0abe;
+
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    
+}
+

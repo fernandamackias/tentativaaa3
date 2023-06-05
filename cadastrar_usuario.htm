@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="usuario.css">
+    <script src="https://kit.fontawesome.com/8f05884cfd.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="ul-menu">
+                <a href="home.html">
+                    <li><i class="fa-regular fa-user" style="color:#ff0abe; "></i></li></a>
+                <li id="imagem-localizacao"><i class="fa-solid fa-location-dot" style="color: #ff0abe;"></i>
+                    <input id="cep" type="text" placeholder="Digite seu CEP">
+                <p class="nome-localizacao"></p>
+ <button onclick="consultaEndereco()">oK</button>           
+            </li>
+                <li>
+                    <a href="login.html">
+                    <i class="fa-regular fa-image" style="color: #ff00c8;"></i></li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+<section id="usuario"><br><br>
+    <h1 id="texto">CADASTRO USUARIO</h1>
+    <form action="">
+        <div>
+            <label for="">NOME:</label>
+            <input type="text"><br>
+
+            <label for="">E-MAIL</label>
+            <input type="email"><br>
+
+            <label for="">SENHA</label>
+            <input type="password"><br>
+
+            <label for="">IMAGEM</label>
+            <input type="text"><br>
+
+            <label for="">ENDEREÇO</label>
+            <input type="text"><br>
+
+            <label for="">FAVORITOS</label>
+            <input type="text"><br>
+
+            <label for="">PEDIDOS</label>
+            <input type="text"><br><br>
+
+            <label for="">ADMIN</label>
+<input type="radio" name="admin">SIM  
+<input type="radio" name="admin">NÃO<br><br>
+      <button id="botao">CADASTRAR USUARIO</button>  
+
+</div>
+    </form>
+</section>
+
+
+
+
+
+
+
+<footer id="footer" class="footer">
+    <ul class="footer-card">
+
+
+         <a href="home.html">
+        <li class="footer-item">
+        <i class="fa-solid fa-house" id="home-item"></i>
+        <p class="footer-nome-item">HOME</p>
+        </li></a>
+       
+        <a href="cadastrar_usuario.htm">
+        <li class="footer-item">
+        <i class="fa-regular fa-face-smile"id="cadastrar-usuarioo"></i>
+        <p class="footer-nome-item">CADASTRO USUARIO</p>
+        </li></a>
+
+        <a href="cadastrar_produto.html">
+        <li class="footer-item">
+        <i class="fa-solid fa-barcode" id="cadastrar-produtoo"></i>
+        <p class="footer-nome-item">CADASTRO DE PRODUTO</p>
+        </li></a>
+
+           <a href="carrinho.html">
+            <li class="footer-item">
+            <i class="fa-solid fa-cart-shopping" id="carinhoo"></i>
+            <p class="footer-nome-item">CARRINHO</p>
+            </li></a> 
+
+            <a href="produto.html">
+            <li class="footer-item">
+            <i class="fa-regular fa-note-sticky" id="produtoo"></i>
+            <p class="footer-nome-item">PRODUTO</p> 
+            </li></a>
+    </ul> 
+
+</footer>
+
+
+</main>
+<script src="script-home.js"></script>
+</body>
+</html>
